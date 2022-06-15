@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "react-app"
+  ],
+  "globals": {
+    "chrome": "readonly"
+  },
+  "plugins": ["@typescript-eslint"],
+  "env": {
+    "webextensions": true
+  }
+}
